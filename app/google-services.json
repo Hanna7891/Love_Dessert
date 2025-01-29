@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "884458540734",
+    "project_id": "homepage-dessert",
+    "storage_bucket": "homepage-dessert.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884458540734:android:92c773d221a9192f6398ef",
+        "android_client_info": {
+          "package_name": "com.example.homepage_dessert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_3SBLfThERFKlpS_DT39kp8hiJepv_T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

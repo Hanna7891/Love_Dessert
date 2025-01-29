@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Homepage_Dessert"
+        tools:targetApi="31">
+        <activity
+            android:name=".QR_Reader"
+            android:exported="false" />
+        <activity
+            android:name=".Cake_Pages"
+            android:exported="false" />
+        <activity
+            android:name=".Muffin_Pages"
+            android:exported="false" />
+        <activity
+            android:name=".Macaron_Pages"
+            android:exported="false" />
+        <activity
+            android:name=".Team_Pages"
+            android:exported="false" />
+        <activity
+            android:name=".Order_Pages"
+            android:exported="false" />
+        <activity
+            android:name=".About_Pages"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_Pages"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Pages"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".homepage"
+            android:exported="false" />
+        <activity
+            android:name=".Cookies_Pages"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FullImageActivity" />
+        <activity android:name=".CakesFullImage" />
+        <activity android:name=".CookiesFullImage" />
+        <activity android:name=".MuffinFullImage" />
+        <activity android:name=".ViewOrdersActivity" />
+    </application>
+
+</manifest>

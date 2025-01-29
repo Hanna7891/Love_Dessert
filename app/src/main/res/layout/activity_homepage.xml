@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="2dp"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:rowCount="2">
+
+        <Button
+            android:id="@+id/button_menu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFC0CB"
+            android:text="Menu"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFC0CB"
+            android:text="Order"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_about_us"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFC0CB"
+            android:text="About Us"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_contact_us"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFC0CB"
+            android:text="Contact Us"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_our_team"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFC0CB"
+            android:text="Our Team"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_prom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="#FFC0CB"
+            android:text="Qr Reader"
+            android:textColor="#FFFFFF" />
+
+    </GridLayout>
+</RelativeLayout>

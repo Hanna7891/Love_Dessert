@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_Pages">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/aboutUsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#D95876"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Cafe Logo -->
+    <ImageView
+        android:id="@+id/cafeLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_bg"
+        android:contentDescription="Cafe Logo"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/aboutUsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- About the Café -->
+
+    <!-- History Section -->
+
+    <TextView
+        android:id="@+id/aboutCafeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="4dp"
+        android:text="Love Dessert is a café founded in 2010 in Shah Alam, Malaysia. We specialize in crafting delicious desserts and beverages, bringing people together through our passion for sweets. Known for our signature macarons and decadent cakes, we aim to create unforgettable moments for our customers."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafeLogo"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <TextView
+        android:id="@+id/historyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our History"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#D95876"
+        app:layout_constraintTop_toBottomOf="@id/aboutCafeText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- History Text -->
+    <TextView
+        android:id="@+id/historyText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="What started as a small family bakery has grown into one of the most beloved dessert cafés in Shah Alam. Over the years, we have expanded our menu to include a wide range of desserts and beverages while staying true to our commitment to quality and customer satisfaction. Our café is a cozy place for family gatherings, celebrations, and those moments when you just need something sweet!"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/historyTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

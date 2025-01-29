@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact_Pages">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#D95876"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Contact Information Container -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/contactCard"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toBottomOf="@id/titleText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Address -->
+            <TextView
+                android:id="@+id/title_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOVE DESSERT CAFE"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="1dp" />
+            <TextView
+                android:id="@+id/descText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At Love Dessert Cafe, we serve happiness in every bite! Indulge in our delectable range of cakes, cookies, and desserts made with love and the finest ingredients. "
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="30dp" />
+
+
+            <!-- Address -->
+            <TextView
+                android:id="@+id/titText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT US"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="1dp" />
+
+            <TextView
+                android:id="@+id/addressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Love Dessert, Shah Alam Seksyen 12, 40450, Selangor, Malaysia"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="2dp" />
+
+            <!-- Phone Number -->
+            <TextView
+                android:id="@+id/phoneText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 015 - 566 1227"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="2dp" />
+
+            <TextView
+                android:id="@+id/igText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IG: LoveDessert_ShahAlam"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="2dp" />
+
+            <TextView
+                android:id="@+id/fcText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook: Love Dessert Shah Alam"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="2dp" />
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: lovedessert@love.com"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:id="@+id/opt_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OPERATING HOURS "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="1dp" />
+
+            <TextView
+                android:id="@+id/mon_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monday - Friday: 10:00 AM - 8:00 PM"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="1dp" />
+
+            <TextView
+                android:id="@+id/sat_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturday - Sunday: 9:00 AM - 10:00 PM"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="30dp"/>
+
+
+            <TextView
+                android:id="@+id/fol_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow us on social media for the latest updates and promotions:"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="1dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Social Media Icons -->
+    <LinearLayout
+        android:id="@+id/socialMediaIcons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/instagramIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/insta_1"
+            android:contentDescription="Instagram Icon"
+            android:layout_marginEnd="16dp" />
+
+        <ImageView
+            android:id="@+id/facebookIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/face_1"
+            android:contentDescription="Facebook Icon"
+            android:layout_marginEnd="16dp" />
+
+        <ImageView
+            android:id="@+id/twitterIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/twitter"
+            android:contentDescription="Twitter Icon" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

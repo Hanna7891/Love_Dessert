@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ViewOrdersActivity"
+    android:background="@drawable/menu_bg">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📜 View Your Previous Orders"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp" />
+
+    <!-- Phone Number Input -->
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Phone Number 📞"
+        android:inputType="phone"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Button to Fetch Orders -->
+    <Button
+        android:id="@+id/buttonFetchOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔍 View My Orders"
+        android:backgroundTint="@color/pink_01"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- ListView to Display Orders -->
+    <ListView
+        android:id="@+id/listViewOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏠 Back to Homepage"
+        android:backgroundTint="@color/pink_01"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

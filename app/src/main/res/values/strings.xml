@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Homepage_Dessert</string>
+
+    <string-array name="category_array">
+        <item>  ~ Pick your favourite dessert ~ </item>
+        <item>Cakes</item>
+        <item>Cookies</item>
+        <item>Macaroon</item>
+        <item>Cupcake</item>
+    </string-array>
+
+    <string-array name="items_array">
+        <item>  ~ Choose you favourite flavour from the menu ~ </item>
+        <item>Mix</item>
+        <item>Chocolate </item>
+        <item>Cheese</item>
+        <item>Red Velvet</item>
+        <item>Coffee</item>
+        <item>Vanilla</item>
+        <item>Strawberry</item>
+        <item>Blueberry</item>
+        <item>Yam</item>
+        <item>Mango</item>
+        <item>Matcha</item>
+    </string-array>
+
+    <string-array name="pickup_times">
+        <item> ~ Select your pickup time ~ </item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>1:00 PM</item>
+        <item>2:00 PM</item>
+        <item>3:00 PM</item>
+        <item>4:00 PM</item>
+        <item>5:00 PM</item>
+    </string-array>
+</resources>
